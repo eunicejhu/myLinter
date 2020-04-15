@@ -1,6 +1,6 @@
-# eslint-plugin-force-interface-name
+# eslint-plugin-generator-name
 
-force interface name begin with Inter
+Generator name must end with 'Generator'
 
 ## Installation
 
@@ -10,42 +10,34 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-force-interface-name`:
+Next, install `eslint-plugin-generator-name`:
 
 ```
-$ npm install eslint-plugin-force-interface-name --save-dev
+$ npm install eslint-plugin-generator-name --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-force-interface-name` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-generator-name` globally.
 
 ## Usage
 
-Add `force-interface-name` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `generator-name` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "plugins": [
-        "force-interface-name"
-    ]
+  "plugins": ["generator-name"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "force-interface-name/rule-name": 2
-    }
+  "rules": {
+    "generator-name/rule-name": 2
+  }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
-
-
-
-
-
+- Fill in provided rules here
